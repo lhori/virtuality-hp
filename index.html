@@ -1,0 +1,476 @@
+<!-- 
+  TEAM: Virtuality
+  MEMBERS: Justin Fink, Mike Hammond, Luka Horiuchi, Deric Kruse, Josh Murphy, Leon Vong
+  PROJECT: Game Design + Augmented Reality/Virtual Reality - Homepage for Virtuality
+  FILE: index.html
+  FINAL VERSION: 04/20/2023
+  DESCRIPTION: This file contain the page of information for our team project. 
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Virtuality</title>
+  <link href="./style.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="javascript.js"></script>
+  <script src="https://kit.fontawesome.com/5e72ad0dca.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./img/Vitruaity_Logo.png" alt="Logo" class="img-fluid"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#virtualityAbout">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#teledyneVR">Teledyne VR Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#conestogaMemorial">Conestoga Memorial Project</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Our Team</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section id="virtualityAbout" class="p-5">
+      <div id="virtualityLogo">
+        <img src="./img/Vitruaity_Logo.svg" alt="Logo">
+      </div>
+
+      <section id="projectExecution" class="container mt-2 pt-5 pb-3">
+        <h2 class="text-center text-white">What Virtuality is About</h2>
+        <h4 class="text-center text-white mb-3">To communicate with each other and facilitate development we enlisted
+          the aid of several tools: </h4>
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col-md-3">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center ">
+                  <i class="fa-brands fa-discord fa-2xl mb-3"></i>
+                  <h4 class="card-title mb-3">Discord</h4>
+                  <p id="card-desc" class="card-text">Discord was used to create discussion, provide links to things, a
+                    place to ask questions and provide us with a way to understand where people at and how the
+                    development was going. This is accomplished by having channels of related discussion as well as
+                    online meetings via voice chat.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center">
+                  <i class="fa-brands fa-trello fa-2xl mb-3"></i>
+                  <h4 class="card-title mb-3">Trello</h4>
+                  <p id="card-desc" class="card-text">Trello was used to organize our list of tasks and things to do in
+                    a kanban style in which allows us to see what is being done, what is done and what is left to be
+                    done. Using Trello to track things was helpful when dividing tasks as well as understanding what
+                    features are left to be implemented.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center">
+                  <i class="fa-brands fa-github fa-2xl mb-3"></i>
+                  <h4 class="card-title mb-3">GitHub</h4>
+                  <p id="card-desc" class="card-text">GitHub was used as our file repository and source control system
+                    for the project. By using GitHub we were able to work on the same project, merge and fix things as
+                    well as outline any issues when merging one branch with another.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center">
+                  <i class="fa-brands fa-microsoft fa-2xl mb-3"></i>
+                  <h4 class="card-title mb-3">Office 365</h4>
+                  <p id="card-desc" class="card-text">Office 365 was used to complete and facilitate our documentation
+                    via Word, provided us a source for our bug fixes/tracking document using spreadsheet, and allowed us
+                    to share it with one another on OneDrive. It was helpful to have a place for cloud storage as well
+                    as having applications that do things that we needed (Like word or spreadsheet).</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <section id="teledyneVR" class="mb-2">
+      <div id="teledyneCarouselCaptions" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#teledyneCarouselCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#teledyneCarouselCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#teledyneCarouselCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#teledyneCarouselCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#teledyneCarouselCaptions" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/teledyne/Teledyne_11.png" class="d-block" alt="teledyne_image_11">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tap Test Inspection</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/teledyne/Teledyne_12.png" class="d-block" alt="teledyne_image_12">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Plug Existence Inspection</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/teledyne/Teledyne_13.png" class="d-block" alt="teledyne_image_13">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Fluid Pressue Inspection</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/teledyne/Teledyne_16.png" class="d-block" alt="teledyne_image_16">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Torque Inspection</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/teledyne/Teledyne_24.png" class="d-block" alt="teledyne_image_24">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Tasks List</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#teledyneCarouselCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#teledyneCarouselCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section id="description" class="container p-5">
+        <div class="row ">
+          <div class="col-md-6">
+            <h2>Teledyne VR Assembly & Inspection Sim</h2>
+            <p>
+              A reproduction of an experience in which we allow users to inspect an assembly process of a digital
+              camera.
+            </p>
+            <p>With this product we are aiming to lower the risk and costs of delivering faulty products to customers by
+              enhancing the training process of inspections. We do this by providing a virtual space in which staff or
+              related individuals can experience what it’s like to inspect a product.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="./img/teledyne/Teledyne_logo.png" class="d-block img-fluid" alt="teledyne_image_24">
+          </div>
+        </div>
+
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div id="iframe-parent">
+              <iframe id="iframe" src="https://www.youtube.com/embed/V1bjzxpgJ3k" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h2>Features</h2>
+            <div class="row">
+              <div class="card col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Vitrual Scenarios</h5>
+                  <p class="card-text">The simulation provides users with custom scenarios.</p>
+                </div>
+              </div>
+              <div class="card col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Immersive Environment</h5>
+                  <p class="card-text">The simulation provides a stylish and relatable 3D environment which is explored
+                    by the user.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Interactive Objects</h5>
+                  <p class="card-text">The simulation provides users with the ability to examine tasks and interact with
+                    tools to aid them.</p>
+                </div>
+              </div>
+              <div class="card col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Tracking and Analytics</h5>
+                  <p class="card-text"> The simulation tracks a user’s progress through the tasks and at the end grades
+                    them on their performance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+    </section>
+
+    <section id="conestogaMemorial" class="mb-2">
+      <div id="CMHCarouselCaptions" class="carousel slide " data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#CMHCarouselCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#CMHCarouselCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#CMHCarouselCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#CMHCarouselCaptions" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#CMHCarouselCaptions" data-bs-slide-to="4"
+            aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/cmh/CMH_14.png" class="d-block" alt="CMH task list">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Task List and Timer</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/cmh/CMH_16.png" class="d-block" alt="CMH task list">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Patient Evacuation</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/cmh/CMH_20.png" class="d-block" alt="Walking Patient Evacuation">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Paitent Evacuating to the Evacuation Zone</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/cmh/CMH_21.png" class="d-block" alt="Wheel Chair Patient Evacuation">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Evacuating Wheelchair Paitent (Require Oxygen Tank)</h5>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/cmh/CMH_23.png" class="d-block" alt="Wheel Chair Patient Evacuation">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Evacuating Wheelchair Paitent</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#CMHCarouselCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#CMHCarouselCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <section id="description" class="container p-5">
+        <div class="row ">
+          <div class="col-md-6">
+
+            <h2>Conestoga Memorial Hospital: Evacuation Training</h2>
+            <p>
+              A simulation of hazardous scenarios in which users can experience and train on what to do when emergency
+              occurs at a hospital.
+            </p>
+            <p>This product should train and educate people on the procedures of how to evacuate patients and control
+              the situation at hand. We do this by providing a virtual situation in which staff or related individuals
+              take the perspective of a hospital staff member in charge of patients and assign them things to do when an
+              emergency occurs. </p>
+
+          </div>
+          <div class="col-md-6">
+            <img src="./img/cmh/CMH_logo.png" class="d-block img-fluid" alt="CMH_logo">
+          </div>
+
+        </div>
+
+        </div>
+        <div class="row mt-5">
+          <div class="col-md-6">
+            <div id="iframe-parent">
+              <iframe id="iframe" src="https://www.youtube.com/embed/xZ6lfOf5feo" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h2>Features</h2>
+            <div class="row">
+              <div class="card col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Vitrual Scenarios</h5>
+                  <p class="card-text">The simulation provides users with custom scenarios.</p>
+                </div>
+              </div>
+              <div class="card col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Immersive Environment</h5>
+                  <p class="card-text">The simulation provides a stylish and relatable 3D environment which is explored
+                    by the user.</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="card col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Interactive Objects</h5>
+                  <p class="card-text">The simulation provides users with the ability to examine tasks and interact with
+                    tools to aid them.</p>
+                </div>
+              </div>
+              <div class="card col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">Tracking and Analytics</h5>
+                  <p class="card-text"> The simulation tracks a user’s progress through the tasks and at the end grades
+                    them on their performance.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+
+    <section id="team" class="pt-3 pb-3">
+      <h2 class="text-center text-white">Our Team</h2>
+      <h4 class="text-center text-white">Contact our team for more information!</h4>
+      <section id="team-member" class="container pb-3">
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-md-4">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <h4 class="card-title">Justin Fink</h4>
+                    </div>
+                    <div class="col-md-3">
+                      <a class="email" href="mailto:Jfink1018@conestogac.on.ca"><i class="fa fa-envelope fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <h4 class="card-title">Mike Hammond</h4>
+                    </div>
+                    <div class="col-md-3">
+                      <a class="email" href="mailto:Mhammond2283@conestogac.on.ca"><i class="fa fa-envelope fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <h4 class="card-title">Luka Horiuchi</h4>
+                    </div>
+                    <div class="col-md-3">
+                      <a class="email" href="mailto:Hhoriuchi7586@conestogac.on.ca"><i class="fa fa-envelope fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <h4 class="card-title">Deric Kruse</h4>
+                    </div>
+                    <div class="col-md-3">
+                      <a class="email" href="mailto:Dkruse9837@conestogac.on.ca"><i class="fa fa-envelope fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <h4 class="card-title">Josh Murphy</h4>
+                    </div>
+                    <div class="col-md-3">
+                      <a class="email" href="mailto:Jmurphy9012@conestogac.on.ca"><i class="fa fa-envelope fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div id="card-custom" class="card">
+                <div class="card-body text-center">
+                  <div class="row">
+                    <div class="col-md-9">
+                      <h4 class="card-title">Leon Vong</h4>
+                    </div>
+                    <div class="col-md-3">
+                      <a class="email" href="mailto:Lvong2694@conestogac.on.ca"><i class="fa fa-envelope fa-2x"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-container text-center">
+      <p>&copy; 2023 SET Virtuality</p>
+    </div>
+  </footer>
+</body>
+
+</html>
